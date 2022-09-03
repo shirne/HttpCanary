@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(getApplicationContext(), WebActivity.class);
-                intent.putExtra("SSS",1);
+                intent.putExtra("url",App.HTTPS);
                 startActivity(intent);
             }
         });
